@@ -30,7 +30,7 @@ sp.graph(matrix, save=True)
 Input: A [distance matrix](https://www.wikipedia.org/wiki/Distance_matrix) embedded into a 2D Python List.
 
 ### Demonstration:
-Data: [dmatrix.csv](https://github.com/kiwirafe/springpy/blob/main/example/dmatrix.csv)
+Data: [dmatrix.csv](https://github.com/kiwirafe/springpy/blob/main/example/dmatrix.csv)  
 Code: [example.py](https://github.com/kiwirafe/springpy/blob/main/example/example.py)
 
 Result(animation & video):
@@ -79,4 +79,4 @@ sp.graph(self, matrix, save=False, ImageName = "springpy_result.jpg"):
 ## Links
 - [kiwirafe.com](kiwirafe.com)
 - [Bibliography](https://github.com/kiwirafe/springpy/blob/main/Bib.md)
-- [Example](https://github.com/kiwirafe/springy/tree/main/example)
+- [Example](https://github.com/kiwirafe/springpy/tree/main/example)
