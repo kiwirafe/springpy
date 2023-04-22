@@ -1,0 +1,11 @@
+Bibliography
+- https://cran.r-project.org/web/packages/qgraph/qgraph.pdf
+- https://github.com/SachaEpskamp/qgraph
+- https://github.com/igraph/igraph
+- https://www1.pub.informatik.uni-wuerzburg.de/demos/forceDirected.html
+- https://www.youtube.com/playlist?list=PLubYOWSl9mIvtnRjCCHP3wqNETTHYjQex
+- https://www.ibm.com/developerworks/cn/web/0909_fudl_flashsocial/#major3
+- https://en.wikipedia.org/wiki/Coulomb%27s_law
+- https://en.wikipedia.org/wiki/Hooke%27s_law
+- https://github.com/chaangliu/ForceDirectedLayout
+- https://cs.brown.edu/people/rtamassi/gdhandbook/chapters/force-directed.pdf

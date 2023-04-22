@@ -1,7 +1,7 @@
 ﻿# Springpy
 
-![Pypi Version](https://img.shields.io/pypi/v/springpy?label=Pypi%20Version)  
-Springpy visualises a distance matrix.
+### Springpy visualises a distance matrix.
+While similar to the "Spring Function" in [qgraph](https://github.com/SachaEpskamp/qgraph) in R and [networkx](https://networkx.org/) in Python, **springpy** provides a simple way to visualize a distance matrix using the Fruchterman Reingold method. **Springpy** allows you to create a spring graph or animate a distance matrix in just one line of code.
 
 ## Download
 ```sh
@@ -11,9 +11,9 @@ pip3 install springpy
 ## Usage
 ```py
 import springpy as sp
-matrix = [[0, 0.2, 0.1],
-		  [0.2, 0, 0.3],
-		  [0.1, 0.3, 0]]
+matrix = [[0         , 0.00638545,  0.28778769],
+          [0.00638545, 0         ,  0.21402251],
+          [0.28778769, 0.21402251,  0         ]]
 
 # Show a matplotlib animation
 sp.animate(matrix)
@@ -30,18 +30,21 @@ sp.graph(matrix, save=True)
 Input: A [distance matrix](https://www.wikipedia.org/wiki/Distance_matrix) embedded into a 2D Python List.
 
 ### Demonstration:
-Data: Click Here
+Data: [dmatrix.csv](https://github.com/kiwirafe/springpy/blob/main/example/dmatrix.csv)
+Code: [example.py](https://github.com/kiwirafe/springpy/blob/main/example/example.py)
 
 Result(animation & video):
 
 https://user-images.githubusercontent.com/30309285/230230490-a8efb0eb-b12b-4ed2-9f08-1aefd3099c97.mp4
 
 Result(graph):
-Currently Unavaliable(Visit GitHub page for more information)
+![springpy_result](https://user-images.githubusercontent.com/30309285/233753442-ec1ed362-64dd-4dd4-a9ea-7c59c5f7c27d.jpg)
 
 ### Change Default Values
+#### For Calculation
 ```py
 import springpy as sp
+
 # Width of the graph, default 100px
 sp.w = 100
 # Height of the graph, default 100px
@@ -75,4 +78,5 @@ sp.graph(self, matrix, save=False, ImageName = "springpy_result.jpg"):
 
 ## Links
 - [kiwirafe.com](kiwirafe.com)
-- [Bibliography](https://www.github.com/kiwirafe/springpy)
+- [Bibliography](https://github.com/kiwirafe/springpy/blob/main/Bib.md)
+- [Example](https://github.com/kiwirafe/springy/tree/main/example)
