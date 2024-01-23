@@ -1,7 +1,10 @@
 ﻿# Springpy
 
-### Springpy visualises a distance matrix.
+### Distance Matrix Visualizer in Python
 While similar to the "Spring Function" in [qgraph](https://github.com/SachaEpskamp/qgraph) in R and [networkx](https://networkx.org/) in Python, **springpy** provides a simple way to visualize a distance matrix using the Fruchterman Reingold method. **Springpy** allows you to create a spring graph or animate a distance matrix in just one line of code.
+
+### Online visualisation
+Visualising a distance matrix online: https://kiwirafe1.pythonanywhere.com/springpy
 
 ## Download
 ```sh
