@@ -29,6 +29,7 @@ sp.graph(matrix, save=True)
 ```
 Input: A [distance matrix](https://www.wikipedia.org/wiki/Distance_matrix) embedded into a 2D Python List.
 
+
 ### Demonstration:
 Data: [dmatrix.csv](https://github.com/kiwirafe/springpy/blob/main/example/dmatrix.csv)
 Code: [example.py](https://github.com/kiwirafe/springpy/blob/main/example/example.py)
@@ -38,10 +39,12 @@ Result(animation & video):
 https://user-images.githubusercontent.com/30309285/230230490-a8efb0eb-b12b-4ed2-9f08-1aefd3099c97.mp4
 
 Result(graph):
+
 ![springpy_result](https://user-images.githubusercontent.com/30309285/233753442-ec1ed362-64dd-4dd4-a9ea-7c59c5f7c27d.jpg)
 
-### Change Default Values
-#### For Calculation
+
+### Modify Default Variables
+#### Calculation Variables
 ```py
 import springpy as sp
 
@@ -57,26 +60,23 @@ sp.eplison = 10
 sp.MaxIter = 500
 ```
 
-#### For sp.animate:
+#### sp.animate variables:
 ```py
 sp.animate(self, matrix, save=False, interval=100, VideoName="springpy_result.mp4"):
 """
 :param save: whether to save the video, default False
 :param interval: the interval between frames, default 100
-:param VideoName: the name of the video for the result, default "springpy_result.gif". Note that this name must include the suffix(ie .gif)
+:param VideoName: the name of the video for the result, default "springpy_result.gif". 
+                  Note that this name must include the suffix (ie .gif)
 """ 
 ```
 
-#### For sp.graph:
+#### sp.graph variables:
 ```py
 sp.graph(self, matrix, save=False, ImageName = "springpy_result.jpg"):
 """
 :param save: whether to save the graph, default False
-:param VideoName: the name of the graph for the result, default "springpy_result.jpg". Note that this name must include the suffix(ie .jpg or .png)
+:param VideoName: the name of the graph for the result, default "springpy_result.jpg". 
+                  Note that this name must include the suffix (ie .jpg or .png)
 """ 
 ```
-
-## Links
-- [kiwirafe.com](kiwirafe.com)
-- [Bibliography](https://github.com/kiwirafe/springpy/blob/main/Bib.md)
-- [Example](https://github.com/kiwirafe/springy/tree/main/example)
